@@ -1,6 +1,6 @@
 Name:       whois       
-Version:    5.0.26
-Release:    1%{?dist}
+Version:    5.1.1
+Release:    2%{?dist}
 Summary:    Improved WHOIS client
 Group:      Applications/Internet
 License:    GPLv2+
@@ -76,6 +76,21 @@ fi
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 5.1.1-2
+- Mass rebuild 2014-01-24
+
+* Mon Jan 13 2014 Petr Pisar <ppisar@redhat.com> - 5.1.1-1
+- 5.1.1 bump (bug #1029021)
+
+* Tue Jan 07 2014 Petr Pisar <ppisar@redhat.com> - 5.1.0-1
+- 5.1.0 bump (bug #1029021)
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 5.0.26-3
+- Mass rebuild 2013-12-27
+
+* Thu Nov 28 2013 Petr Pisar <ppisar@redhat.com> - 5.0.26-2
+- Fix a typo in the manual (bug #1029065)
+
 * Wed Jul 17 2013 Petr Pisar <ppisar@redhat.com> - 5.0.26-1
 - 5.0.26 bump
 
